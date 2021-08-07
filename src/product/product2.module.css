@@ -1,0 +1,14 @@
+.product {
+    float:left; 
+    background:rgb(212, 229, 243);
+    width:25%;
+    height:280px;
+    margin: 5% 1% 1%;
+    height:40%
+}
+
+.h2{
+    text-align: center;
+    margin:0px;
+    padding:2px;
+}

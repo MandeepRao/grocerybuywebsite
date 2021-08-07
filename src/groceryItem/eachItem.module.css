@@ -1,0 +1,29 @@
+
+
+.eachItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 02px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #ccc;
+    background-color: cornsilk;
+  }
+  
+  .button eachItem h3 {
+      float:left;
+      width:5%;
+    margin: 0 0 1px 0;
+  }
+  
+  .button eachItem h4 {
+    font-style: italic;
+    margin:0px;
+  }
+  
+  .button cost {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+  }
