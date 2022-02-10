@@ -12,9 +12,10 @@ const Cart = (props) => {
      return (
          <OrderCart onclose={props.onclosecart}>
          {selectorlist.map((item) => (
-             <CartItem
+             <CartItem key={item.id}
                  item={{
                      id:item.id,
+                     key:item.id,
                      name:item.name,
                      quantity: item.quantity,
                      total: item.totalPrice,

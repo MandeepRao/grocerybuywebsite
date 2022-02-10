@@ -3,14 +3,14 @@ import { cartActions } from '../store/cart-slice';
 import classes from './CartItem.module.css';
 
 const CartItem = (props) => {
-  const { id,name, quantity, total, price } = props.item;
+  const { id,key,name, quantity, total, price } = props.item;
  
   const dispatch= useDispatch();
 
   const addsubmithandler= () => {
       
       dispatch(cartActions.addItemToCart({
-       id:id, name:name, price:price, 
+       id:id,key:key, name:name, price:price, 
       }));
   };
 

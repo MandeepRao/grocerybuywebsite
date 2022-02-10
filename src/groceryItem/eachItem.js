@@ -8,12 +8,12 @@ const EachItem = (prop) => {
   const submitHandler= () => {
       
       dispatch(cartActions.addItemToCart({
-       id:prop.id, name:prop.name, price:prop.cost, 
+       id:prop.id,key:prop.key, name:prop.name, price:prop.cost, 
       }));
   };
 
 
-return <div  id={prop.id} className={classes.eachItem}>
+return <div  id={prop.id} key={prop.id} className={classes.eachItem}>
    
    
     <h3>{prop.name}</h3>
