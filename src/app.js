@@ -20,14 +20,14 @@ const App=() => {
     }
 
     return (<Fragment>
-      {cartopen && <Cart onclosecart={cartclosehandler}/>}
+      {cartopen &&  <Cart onclosecart={cartclosehandler}/> }
     <div style={{'backgroundImage':'url("im")'}}>
         <Navigation onshowcart={cartShowHandler}/>
        <div style={{'marginTop':'70px','marginBottom':'0px','height':'70px','textAlign':'center'
        ,'color':'#ff6600','fontFamily':'Lucida Console','fontSize':'150%','backgroundColor':'white'}}>
-       <marquee direction="right"><h4>Bring your grocery product at homedoor</h4></marquee>
+       <marquee scrollamount="8" direction="left"><h4>Bring your grocery product at homedoor</h4></marquee>
        </div> 
-        <img src={im} alt = {"imag"} style={{'width':'45%','borderRadius':'70%','float':'left','marginTop':'3%'}}/>
+        <img src={im} alt = {"imag"} style={{'width':'40%','min-width':'350px','borderRadius':'70%','float':'left','marginTop':'3%'}}/>
        
        <Product1/>
        <Product2/>
