@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/grocerybuywebsite/static/css/main.f7201508.chunk.css",
+    "main.js": "/grocerybuywebsite/static/js/main.71ca7e56.chunk.js",
+    "main.js.map": "/grocerybuywebsite/static/js/main.71ca7e56.chunk.js.map",
+    "runtime-main.js": "/grocerybuywebsite/static/js/runtime-main.8e4bb574.js",
+    "runtime-main.js.map": "/grocerybuywebsite/static/js/runtime-main.8e4bb574.js.map",
+    "static/js/2.8990f998.chunk.js": "/grocerybuywebsite/static/js/2.8990f998.chunk.js",
+    "static/js/2.8990f998.chunk.js.map": "/grocerybuywebsite/static/js/2.8990f998.chunk.js.map",
+    "index.html": "/grocerybuywebsite/index.html",
+    "static/css/main.f7201508.chunk.css.map": "/grocerybuywebsite/static/css/main.f7201508.chunk.css.map",
+    "static/js/2.8990f998.chunk.js.LICENSE.txt": "/grocerybuywebsite/static/js/2.8990f998.chunk.js.LICENSE.txt",
+    "static/media/img.0a944dd0.jpg": "/grocerybuywebsite/static/media/img.0a944dd0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e4bb574.js",
+    "static/js/2.8990f998.chunk.js",
+    "static/css/main.f7201508.chunk.css",
+    "static/js/main.71ca7e56.chunk.js"
+  ]
+}
